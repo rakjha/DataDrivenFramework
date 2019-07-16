@@ -35,7 +35,6 @@ public class ParameterizeTest
 		
 		//To Make the Connection with Excel File and Get Data.
 		Xls_Reader reader = new Xls_Reader("D:\\Automation_Workspace\\DataDrivenFramework\\src\\main\\java\\com\\qa\\TestData\\HalfEbayTestData.xlsx");
-	
 		int rowCount = reader.getRowCount("ParameteriseData");
 		System.out.println("The Row Count is ::: " +rowCount);
 		

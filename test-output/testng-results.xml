@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="20918" started-at="2019-07-15T17:33:41Z" finished-at="2019-07-15T17:34:01Z">
+  <suite name="Default suite" duration-ms="812" started-at="2019-07-16T16:54:38Z" finished-at="2019-07-16T16:54:39Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="20918" started-at="2019-07-15T17:33:41Z" finished-at="2019-07-15T17:34:01Z">
-      <class name="com.qa.DataDriven.Tests.ParameterizeTest">
-        <test-method status="PASS" signature="fillRegistrationPageData()[pri:0, instance:com.qa.DataDriven.Tests.ParameterizeTest@475530b9]" name="fillRegistrationPageData" duration-ms="20893" started-at="2019-07-15T23:03:41Z" finished-at="2019-07-15T23:04:01Z">
+    <test name="Default test" duration-ms="812" started-at="2019-07-16T16:54:38Z" finished-at="2019-07-16T16:54:39Z">
+      <class name="com.qa.DataDriven.Tests.ExcelOperations">
+        <test-method status="PASS" signature="excelOperations()[pri:0, instance:com.qa.DataDriven.Tests.ExcelOperations@cc285f4]" name="excelOperations" duration-ms="780" started-at="2019-07-16T22:24:38Z" finished-at="2019-07-16T22:24:39Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- fillRegistrationPageData -->
-      </class> <!-- com.qa.DataDriven.Tests.ParameterizeTest -->
+        </test-method> <!-- excelOperations -->
+      </class> <!-- com.qa.DataDriven.Tests.ExcelOperations -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

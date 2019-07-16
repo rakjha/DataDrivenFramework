@@ -31,7 +31,7 @@ public class Xls_Reader
 	private XSSFRow row = null;
 	private XSSFCell cell = null;
 	
-	//Below function is used to Read Data from Excel
+	//Below function is used to Read Data from Excel.
 	public Xls_Reader(String path)
 	{
 		this.path = path;
@@ -48,7 +48,7 @@ public class Xls_Reader
 		}
 	}
 	
-	//Returns the row count in a sheet
+	//Returns the row count in a Sheet.
 	public int getRowCount(String sheetName)
 	{
 		int index = workbook.getSheetIndex(sheetName);
@@ -62,7 +62,7 @@ public class Xls_Reader
 		}
 	}
 	
-	//Returns the data from a cell
+	//Returns the data from a Cell.
 	public String getCellData(String sheetName, String colName, int rowNum)
 	{
 		try 
@@ -125,7 +125,7 @@ public class Xls_Reader
 		}
 	}
 
-	//Returns the data from a cell
+	//Returns the data from a Cell.
 	public String getCellData(String sheetName, int colNum, int rowNum) 
 	{
 		try
@@ -153,7 +153,7 @@ public class Xls_Reader
 				String cellText = String.valueOf(cell.getNumericCellValue());
 				if (HSSFDateUtil.isCellDateFormatted(cell)) 
 				{
-					// format in form of M/D/YY
+					//Format in form of M/D/YY
 					double d = cell.getNumericCellValue();
 
 					Calendar cal = Calendar.getInstance();
@@ -161,9 +161,8 @@ public class Xls_Reader
 					cellText = (String.valueOf(cal.get(Calendar.YEAR))).substring(2);
 					cellText = cal.get(Calendar.MONTH) + 1 + "/" + cal.get(Calendar.DAY_OF_MONTH) + "/" + cellText;
 
-					// System.out.println(cellText);
+					//System.out.println(cellText);
 				}
-
 				return cellText;
 			} 
 			else if (cell.getCellType() == Cell.CELL_TYPE_BLANK)
@@ -173,13 +172,12 @@ public class Xls_Reader
 		} 
 		catch (Exception e) 
 		{
-
 			e.printStackTrace();
 			return "row " + rowNum + " or column " + colNum + " does not exist  in xls";
 		}
 	}
 
-	//Returns true if data is set successfully else false
+	//Returns true if data is Set Successfully else False.
 	public boolean setCellData(String sheetName, String colName, int rowNum, String data) 
 	{
 		try 
@@ -236,8 +234,9 @@ public class Xls_Reader
 		return true;
 	}
 
-	//Returns true if data is set successfully else false
-	public boolean setCellData(String sheetName, String colName, int rowNum, String data, String url) {
+	//Returns true if data is Set Successfully else False.
+	public boolean setCellData(String sheetName, String colName, int rowNum, String data, String url) 
+	{
 		//System.out.println("setCellData setCellData******************");
 		try 
 		{
@@ -303,7 +302,7 @@ public class Xls_Reader
 		return true;
 	}
 
-	//Returns true if sheet is created successfully else false
+	//Returns true if sheet is created Successfully else False.
 	public boolean addSheet(String sheetname) 
 	{
 		FileOutputStream fileOut;
@@ -322,8 +321,8 @@ public class Xls_Reader
 		return true;
 	}
 
-	//Returns true if sheet is removed successfully else false if sheet does
-	//Not exist
+	//Returns true if sheet is removed successfully else false if sheet does.
+	//Not exist.
 	public boolean removeSheet(String sheetName) 
 	{
 		int index = workbook.getSheetIndex(sheetName);
@@ -346,7 +345,7 @@ public class Xls_Reader
 		return true;
 	}
 
-	//Returns true if column is created successfully
+	//Returns true if column is created Successfully.
 	public boolean addColumn(String sheetName, String colName) 
 	{
 	//System.out.println("**************addColumn*********************");
@@ -391,7 +390,7 @@ public class Xls_Reader
 		return true;
 	}
 
-	//Removes a column and all the contents
+	//Removes a column and all the Contents.
 	public boolean removeColumn(String sheetName, int colNum)
 	{
 		try 
@@ -431,7 +430,7 @@ public class Xls_Reader
 		return true;
 	}
 
-	//Find whether sheets exists
+	//Find whether sheets exists.
 	public boolean isSheetExist(String sheetName)
 	{
 		int index = workbook.getSheetIndex(sheetName);
@@ -447,7 +446,7 @@ public class Xls_Reader
 			return true;
 	}
 	
-	//Returns number of columns in a sheet
+	//Returns number of columns in a sheet.
 	public int getColumnCount(String sheetName) 
 	{
 		//Check if sheet exists
@@ -463,10 +462,9 @@ public class Xls_Reader
 		return row.getLastCellNum();
 	}
 
-	//String sheetName, String testCaseName,String keyword ,String URL,String
-	//Message
-	public boolean addHyperLink(String sheetName, String screenShotColName, String testCaseName, int index, String url,
-			String message) 
+	//String sheetName, String testCaseName,String keyword ,String URL,String.
+	//Message.
+	public boolean addHyperLink(String sheetName, String screenShotColName, String testCaseName, int index, String url, String message) 
 	{
 		//System.out.println("ADDING addHyperLink******************");
 		url = url.replace('\\', '/');
