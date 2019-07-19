@@ -2,7 +2,7 @@ package com.qa.DataDriven.Tests;
 
 import org.testng.annotations.Test;
 
-import com.Excel.Utility.Xls_Reader;
+import com.Excel.Utilities.Xls_Reader;
 
 public class ExcelOperations 
 {

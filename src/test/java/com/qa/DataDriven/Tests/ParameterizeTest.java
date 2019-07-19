@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
 
-import com.Excel.Utility.Xls_Reader;
+import com.Excel.Utilities.Xls_Reader;
 
 //Below is example of Parameterization
 //Parameterization is always done by using For-Loop.

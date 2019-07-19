@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
 
-import com.Excel.Utility.Xls_Reader;
+import com.Excel.Utilities.Xls_Reader;
 
 //This Program is just to Read the Data from Excel File.
 //This approach is good, when we have to fill data in any Page with One Set of Data.
