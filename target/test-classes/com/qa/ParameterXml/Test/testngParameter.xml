@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FacebookSuite">
+	
+  <test name="Parameters Test">
+  
+  	<parameter name="url" value="https://www.facebook.com/"/>
+  	<parameter name="emailID" value="PavanKrishnan1993@Gmail.com/"/>
+  	<parameter name="Password" value="PavanReddy"/>
+  	
+    <classes>
+      <class name="com.qa.ParameterXml.Test.ParametersXmlTest"/>
+    </classes>
+    
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+			

@@ -1,229 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="44670" started-at="2019-07-19T19:41:12Z" finished-at="2019-07-19T19:41:56Z">
+  <suite name="FacebookSuite" duration-ms="9548" started-at="2019-07-20T07:58:23Z" finished-at="2019-07-20T07:58:33Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="44670" started-at="2019-07-19T19:41:12Z" finished-at="2019-07-19T19:41:56Z">
-      <class name="com.qa.DataDriven.Tests.DataProviderTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.DataDriven.Tests.DataProviderTest@29774679]" name="setUp" is-config="true" duration-ms="10477" started-at="2019-07-20T01:11:13Z" finished-at="2019-07-20T01:11:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="dataProviderTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.DataDriven.Tests.DataProviderTest@29774679]" name="dataProviderTest" duration-ms="1697" started-at="2019-07-20T01:11:23Z" data-provider="getCRMContactsTestData" finished-at="2019-07-20T01:11:25Z">
+    <test name="Parameters Test" duration-ms="9548" started-at="2019-07-20T07:58:23Z" finished-at="2019-07-20T07:58:33Z">
+      <class name="com.qa.ParameterXml.Test.ParametersXmlTest">
+        <test-method status="PASS" signature="loginUsingParameters(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.ParameterXml.Test.ParametersXmlTest@224edc67]" name="loginUsingParameters" duration-ms="9523" started-at="2019-07-20T13:28:23Z" finished-at="2019-07-20T13:28:33Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Tom]]>
+                <![CDATA[https://www.facebook.com/]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Peter]]>
+                <![CDATA[PavanKrishnan1993@Gmail.com/]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[#12, New Street]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Down Town]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Sunnyvale]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[California]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[94091.0]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[Tom@Gmail.com]]>
+                <![CDATA[PavanReddy]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- dataProviderTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.DataDriven.Tests.DataProviderTest@29774679]" name="tearDown" is-config="true" duration-ms="620" started-at="2019-07-20T01:11:25Z" finished-at="2019-07-20T01:11:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.DataDriven.Tests.DataProviderTest@29774679]" name="setUp" is-config="true" duration-ms="8340" started-at="2019-07-20T01:11:25Z" finished-at="2019-07-20T01:11:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="dataProviderTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.DataDriven.Tests.DataProviderTest@29774679]" name="dataProviderTest" duration-ms="1575" started-at="2019-07-20T01:11:34Z" data-provider="getCRMContactsTestData" finished-at="2019-07-20T01:11:35Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Jason]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Roy]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[#13, New Street]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Down Town]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Sunnyvale]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[California]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[94092.0]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[Jason@Gmail.com]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- dataProviderTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.DataDriven.Tests.DataProviderTest@29774679]" name="tearDown" is-config="true" duration-ms="630" started-at="2019-07-20T01:11:35Z" finished-at="2019-07-20T01:11:36Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.DataDriven.Tests.DataProviderTest@29774679]" name="setUp" is-config="true" duration-ms="8053" started-at="2019-07-20T01:11:36Z" finished-at="2019-07-20T01:11:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="dataProviderTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.DataDriven.Tests.DataProviderTest@29774679]" name="dataProviderTest" duration-ms="1601" started-at="2019-07-20T01:11:44Z" data-provider="getCRMContactsTestData" finished-at="2019-07-20T01:11:46Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Bair]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Strow]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[#14, New Street]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Down Town]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Sunnyvale]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[California]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[94093.0]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[Bair@Gmail.com]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- dataProviderTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.DataDriven.Tests.DataProviderTest@29774679]" name="tearDown" is-config="true" duration-ms="626" started-at="2019-07-20T01:11:46Z" finished-at="2019-07-20T01:11:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.DataDriven.Tests.DataProviderTest@29774679]" name="setUp" is-config="true" duration-ms="7864" started-at="2019-07-20T01:11:46Z" finished-at="2019-07-20T01:11:54Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="dataProviderTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.DataDriven.Tests.DataProviderTest@29774679]" name="dataProviderTest" duration-ms="1739" started-at="2019-07-20T01:11:54Z" data-provider="getCRMContactsTestData" finished-at="2019-07-20T01:11:56Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Sanam]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Teri]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[#15, New Street]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Down Town]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Sunnyvale]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[California]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[94094.0]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[Sanam@Gmail.com]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- dataProviderTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.DataDriven.Tests.DataProviderTest@29774679]" name="tearDown" is-config="true" duration-ms="645" started-at="2019-07-20T01:11:56Z" finished-at="2019-07-20T01:11:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.DataDriven.Tests.DataProviderTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- loginUsingParameters -->
+      </class> <!-- com.qa.ParameterXml.Test.ParametersXmlTest -->
+    </test> <!-- Parameters Test -->
+  </suite> <!-- FacebookSuite -->
 </testng-results>
