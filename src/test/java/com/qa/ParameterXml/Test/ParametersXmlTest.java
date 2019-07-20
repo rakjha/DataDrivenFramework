@@ -15,6 +15,7 @@ public class ParametersXmlTest
 	@Parameters({"url", "emailID", "Password"})
 	public void loginUsingParameters(String url, String emailID, String Password) throws AWTException, InterruptedException
 	{
+		//WebDriver Code
 		System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
