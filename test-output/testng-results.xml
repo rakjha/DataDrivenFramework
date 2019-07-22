@@ -2,33 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="FacebookSuite" duration-ms="9548" started-at="2019-07-20T07:58:23Z" finished-at="2019-07-20T07:58:33Z">
+  <suite name="Default suite" duration-ms="41118" started-at="2019-07-22T16:58:09Z" finished-at="2019-07-22T16:58:50Z">
     <groups>
     </groups>
-    <test name="Parameters Test" duration-ms="9548" started-at="2019-07-20T07:58:23Z" finished-at="2019-07-20T07:58:33Z">
-      <class name="com.qa.ParameterXml.Test.ParametersXmlTest">
-        <test-method status="PASS" signature="loginUsingParameters(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.ParameterXml.Test.ParametersXmlTest@224edc67]" name="loginUsingParameters" duration-ms="9523" started-at="2019-07-20T13:28:23Z" finished-at="2019-07-20T13:28:33Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://www.facebook.com/]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[PavanKrishnan1993@Gmail.com/]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[PavanReddy]]>
-              </value>
-            </param>
-          </params>
+    <test name="Default test" duration-ms="41118" started-at="2019-07-22T16:58:09Z" finished-at="2019-07-22T16:58:50Z">
+      <class name="com.qa.DataDriven.Tests.WebTableHandle">
+        <test-method status="PASS" signature="webTable()[pri:0, instance:com.qa.DataDriven.Tests.WebTableHandle@475530b9]" name="webTable" duration-ms="41085" started-at="2019-07-22T22:28:09Z" finished-at="2019-07-22T22:28:50Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginUsingParameters -->
-      </class> <!-- com.qa.ParameterXml.Test.ParametersXmlTest -->
-    </test> <!-- Parameters Test -->
-  </suite> <!-- FacebookSuite -->
+        </test-method> <!-- webTable -->
+      </class> <!-- com.qa.DataDriven.Tests.WebTableHandle -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

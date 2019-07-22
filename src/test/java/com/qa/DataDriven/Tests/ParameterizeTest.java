@@ -34,7 +34,8 @@ public class ParameterizeTest
 		driver.get("https://scgi.half.ebay.com/ws/eBayISAPI.dll?RegisterEnterInfo&usage=2943&ru=");	
 		
 		//To Make the Connection with Excel File and Get Data.
-		Xls_Reader reader = new Xls_Reader("D:\\Automation_Workspace\\DataDrivenFramework\\src\\main\\java\\com\\qa\\TestData\\HalfEbayTestData.xlsx");
+		Xls_Reader reader = new Xls_Reader("D:\\Automation_Workspace\\DataDrivenFramework\\src\\main"
+				+ "\\java\\com\\qa\\TestData\\HalfEbayTestData.xlsx");
 		int rowCount = reader.getRowCount("ParameteriseData");
 		System.out.println("The Row Count is ::: " +rowCount);
 		
