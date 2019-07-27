@@ -32,7 +32,7 @@ public class DataProviderTest
 	}
 	
 	@DataProvider
-	public Object[][] getCRMContactsTestData() //To Access Sheet from Test Data Sheet
+	public Object[][] getCRMContactsTestData() //To Access Sheet from Test Data Sheet.
 	{
 		Object data [][] = DataProviderUtility.getTestData(sheetName);
 		return data;

@@ -3,7 +3,7 @@ package com.qa.DataDriven.Tests;
 public class Utilities 
 {
 	//1. 
-	//Creating a New Column in Excel Sheet to Write Status Pass Or Fail.
+	//Creating a New Column in Excel Sheet to Write Status Pass Or Fail
 	//reader.addColumn("ParameteriseData", "Status");
 	
 	//2.

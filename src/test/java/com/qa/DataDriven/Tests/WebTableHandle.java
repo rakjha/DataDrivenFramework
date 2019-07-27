@@ -13,7 +13,7 @@ import com.Excel.Utilities.Xls_Reader;
 
 public class WebTableHandle 
 {
-	//Writing WebTable Values into Excel Sheet in Selenium wit Apace POI API.
+	//Writing WebTable Values into Excel Sheet in Selenium wit Apace POI API
 	@Test
 	public void webTable() throws InterruptedException
 	{

@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 
 import com.Excel.Utilities.Xls_Reader;
 
-//Below is example of Parameterization
+//Below is example of Parameterization.
 //Parameterization is always done by using For-Loop.
 //It can also be called as Data Driven Approach - Used to Create Data Driven Framework.
 //Data Driven Framework means Driving the Test Data from Excel Files Or Some Other Resources.
